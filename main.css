@@ -77,9 +77,18 @@ p {
   flex-wrap: wrap;
   justify-content: space-evenly;
   overflow: scroll;
-  align-items: center;
+  align-items: baseline;
   height: 600px;
   width: 700px;
+}
+.top-video-title {
+  font-size: 20px;
+}
+.top-video-description{
+  font-size: 15px;
+}
+.top-video-like-counter {
+  font-size: 15px;
 }
 .recommended-image-video {
   max-width: 100%;
